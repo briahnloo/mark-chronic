@@ -1,0 +1,147 @@
+loaded 413,909 B6 rows over 2022-06:2023-11
+
+==============================================================================
+A: AIRPORT-PAIR, window per DEPARTURE: 5 flight(s) over the line (run >= 5)
+
+  JFK-RDU  modal dep 2155 / 2159  airports in city pair: 
+    flight numbers in cluster: [1385, 1985, 2585]
+    chronic run: 2022-06..2022-10  max consecutive = 5
+      2022-06  ops= 30 late= 21 pct=0.700 canc= 3 streak=1
+      2022-07  ops= 31 late= 22 pct=0.710 canc= 1 streak=2
+      2022-08  ops= 31 late= 23 pct=0.742 canc= 3 streak=3
+      2022-09  ops= 30 late= 16 pct=0.533 canc= 0 streak=4
+      2022-10  ops= 31 late= 17 pct=0.548 canc= 0 streak=5
+
+  FLL-BOS  modal dep 2040 / 2114 / 2115 / 2120 / 2140  airports in city pair: 
+    flight numbers in cluster: [170]
+    chronic run: 2023-04..2023-09  max consecutive = 6
+      2023-04  ops= 30 late= 20 pct=0.667 canc= 2 streak=1
+      2023-05  ops= 27 late= 14 pct=0.519 canc= 0 streak=2
+      2023-06  ops= 16 late= 13 pct=0.812 canc= 0 streak=3
+      2023-07  ops= 31 late= 21 pct=0.677 canc= 1 streak=4
+      2023-08  ops= 31 late= 16 pct=0.516 canc= 1 streak=5
+      2023-09  ops= 29 late= 22 pct=0.759 canc= 1 streak=6
+
+  MCO-JFK  modal dep 2052 / 2055 / 2109  airports in city pair: 
+    flight numbers in cluster: [384]
+    chronic run: 2023-06..2023-10  max consecutive = 5
+      2023-06  ops= 30 late= 20 pct=0.667 canc= 2 streak=1
+      2023-07  ops= 31 late= 26 pct=0.839 canc= 4 streak=2
+      2023-08  ops= 31 late= 19 pct=0.613 canc= 2 streak=3
+      2023-09  ops= 25 late= 19 pct=0.760 canc= 2 streak=4
+      2023-10  ops= 27 late= 15 pct=0.556 canc= 0 streak=5
+
+  FLL-JFK  modal dep 2059 / 2110 / 2115  airports in city pair: 
+    flight numbers in cluster: [1038, 1802, 2202, 2702, 2912]
+    chronic run: 2023-06..2023-10  max consecutive = 5
+      2023-06  ops= 30 late= 19 pct=0.633 canc= 5 streak=1
+      2023-07  ops= 31 late= 22 pct=0.710 canc= 2 streak=2
+      2023-08  ops= 31 late= 20 pct=0.645 canc= 2 streak=3
+      2023-09  ops= 30 late= 19 pct=0.633 canc= 0 streak=4
+      2023-10  ops= 30 late= 16 pct=0.533 canc= 0 streak=5
+
+  FLL-BDL  modal dep 2030 / 2040 / 2115  airports in city pair: 
+    flight numbers in cluster: [460]
+    chronic run: 2023-06..2023-11  max consecutive = 6
+      2023-06  ops= 30 late= 17 pct=0.567 canc= 0 streak=1
+      2023-07  ops= 31 late= 18 pct=0.581 canc= 0 streak=2
+      2023-08  ops= 31 late= 18 pct=0.581 canc= 1 streak=3
+      2023-09  ops= 30 late= 16 pct=0.533 canc= 1 streak=4
+      2023-10  ops= 28 late= 17 pct=0.607 canc= 0 streak=5
+      2023-11  ops= 29 late= 15 pct=0.517 canc= 0 streak=6
+
+  --- match against the order ---
+  MATCH  JFK-RDU flight 2585: expected 2022-06..2022-10 (5) | got 2022-06..2022-10 (5) | 2585 in cluster
+  MATCH  FLL-JFK flight 1802: expected 2023-06..2023-10 (5) | got 2023-06..2023-10 (5) | 1802 in cluster
+  MATCH  MCO-JFK flight 384: expected 2023-06..2023-10 (5) | got 2023-06..2023-10 (5) | 384 in cluster
+  MATCH  FLL-BDL flight 460: expected 2023-06..2023-11 (6) | got 2023-06..2023-11 (6) | 460 in cluster
+  EXTRA flights not in the order: [('FLL', 'BOS')]
+
+  CONTROL DOES NOT MATCH
+
+==============================================================================
+B: AIRPORT-PAIR, window per SERVICE: 4 flight(s) over the line (run >= 5)
+
+  JFK-RDU  modal dep 2155 / 2159  airports in city pair: 
+    flight numbers in cluster: [1385, 1985, 2585]
+    chronic run: 2022-06..2022-10  max consecutive = 5
+      2022-06  ops= 30 late= 21 pct=0.700 canc= 3 streak=1
+      2022-07  ops= 31 late= 22 pct=0.710 canc= 1 streak=2
+      2022-08  ops= 31 late= 23 pct=0.742 canc= 3 streak=3
+      2022-09  ops= 30 late= 16 pct=0.533 canc= 0 streak=4
+      2022-10  ops= 31 late= 17 pct=0.548 canc= 0 streak=5
+
+  MCO-JFK  modal dep 2052 / 2055 / 2109  airports in city pair: 
+    flight numbers in cluster: [384]
+    chronic run: 2023-06..2023-10  max consecutive = 5
+      2023-06  ops= 30 late= 20 pct=0.667 canc= 2 streak=1
+      2023-07  ops= 31 late= 26 pct=0.839 canc= 4 streak=2
+      2023-08  ops= 31 late= 19 pct=0.613 canc= 2 streak=3
+      2023-09  ops= 25 late= 19 pct=0.760 canc= 2 streak=4
+      2023-10  ops= 27 late= 15 pct=0.556 canc= 0 streak=5
+
+  FLL-JFK  modal dep 2059 / 2110 / 2115  airports in city pair: 
+    flight numbers in cluster: [1802, 2202, 2912]
+    chronic run: 2023-06..2023-10  max consecutive = 5
+      2023-06  ops= 30 late= 19 pct=0.633 canc= 5 streak=1
+      2023-07  ops= 31 late= 22 pct=0.710 canc= 2 streak=2
+      2023-08  ops= 31 late= 20 pct=0.645 canc= 2 streak=3
+      2023-09  ops= 30 late= 19 pct=0.633 canc= 0 streak=4
+      2023-10  ops= 28 late= 16 pct=0.571 canc= 0 streak=5
+
+  FLL-BDL  modal dep 2030 / 2040 / 2115  airports in city pair: 
+    flight numbers in cluster: [460]
+    chronic run: 2023-06..2023-11  max consecutive = 6
+      2023-06  ops= 30 late= 17 pct=0.567 canc= 0 streak=1
+      2023-07  ops= 31 late= 18 pct=0.581 canc= 0 streak=2
+      2023-08  ops= 31 late= 18 pct=0.581 canc= 1 streak=3
+      2023-09  ops= 30 late= 16 pct=0.533 canc= 1 streak=4
+      2023-10  ops= 31 late= 17 pct=0.548 canc= 0 streak=5
+      2023-11  ops= 29 late= 15 pct=0.517 canc= 0 streak=6
+
+  --- match against the order ---
+  MATCH  JFK-RDU flight 2585: expected 2022-06..2022-10 (5) | got 2022-06..2022-10 (5) | 2585 in cluster
+  MATCH  FLL-JFK flight 1802: expected 2023-06..2023-10 (5) | got 2023-06..2023-10 (5) | 1802 in cluster
+  MATCH  MCO-JFK flight 384: expected 2023-06..2023-10 (5) | got 2023-06..2023-10 (5) | 384 in cluster
+  MATCH  FLL-BDL flight 460: expected 2023-06..2023-11 (6) | got 2023-06..2023-11 (6) | 460 in cluster
+
+  CONTROL REPRODUCES THE ORDER EXACTLY
+
+==============================================================================
+C: CITY-PAIR, window per departure: 3 flight(s) over the line (run >= 5)
+
+  LGA-FLL  modal dep 2100 / 2125 / 2145  airports in city pair: [('EWR', 'FLL'), ('EWR', 'MIA'), ('HPN', 'FLL'), ('JFK', 'FLL'), ('JFK', 'MIA'), ('LGA', 'FLL')]
+    flight numbers in cluster: [371, 471, 571, 1171, 1301, 1501, 1701, 1705, 1971, 2193, 2601]
+    chronic run: 2022-06..2022-10  max consecutive = 5
+      2022-06  ops= 22 late= 14 pct=0.636 canc= 3 streak=1
+      2022-07  ops= 88 late= 49 pct=0.557 canc= 4 streak=2
+      2022-08  ops= 88 late= 47 pct=0.534 canc= 7 streak=3
+      2022-09  ops= 24 late= 15 pct=0.625 canc= 0 streak=4
+      2022-10  ops= 29 late= 18 pct=0.621 canc= 0 streak=5
+
+  JFK-RDU  modal dep 2155 / 2159  airports in city pair: [('JFK', 'RDU')]
+    flight numbers in cluster: [1385, 1985, 2585]
+    chronic run: 2022-06..2022-10  max consecutive = 5
+      2022-06  ops= 30 late= 21 pct=0.700 canc= 3 streak=1
+      2022-07  ops= 31 late= 22 pct=0.710 canc= 1 streak=2
+      2022-08  ops= 31 late= 23 pct=0.742 canc= 3 streak=3
+      2022-09  ops= 30 late= 16 pct=0.533 canc= 0 streak=4
+      2022-10  ops= 31 late= 17 pct=0.548 canc= 0 streak=5
+
+  FLL-BDL  modal dep 2030 / 2040  airports in city pair: [('FLL', 'BDL'), ('MIA', 'BDL')]
+    flight numbers in cluster: [460]
+    chronic run: 2023-06..2023-10  max consecutive = 5
+      2023-06  ops= 30 late= 17 pct=0.567 canc= 0 streak=1
+      2023-07  ops= 31 late= 18 pct=0.581 canc= 0 streak=2
+      2023-08  ops= 31 late= 18 pct=0.581 canc= 1 streak=3
+      2023-09  ops= 30 late= 16 pct=0.533 canc= 1 streak=4
+      2023-10  ops= 28 late= 17 pct=0.607 canc= 0 streak=5
+
+  --- match against the order ---
+  MATCH  JFK-RDU flight 2585: expected 2022-06..2022-10 (5) | got 2022-06..2022-10 (5) | 2585 in cluster
+  MISSING FLL-JFK flight 1802 (expected 2023-06..2023-10, 5 months)
+  MISSING MCO-JFK flight 384 (expected 2023-06..2023-10, 5 months)
+  DIFFER FLL-BDL flight 460: expected 2023-06..2023-11 (6) | got 2023-06..2023-10 (5) | 460 in cluster
+  EXTRA flights not in the order: [('LGA', 'FLL')]
+
+  CONTROL DOES NOT MATCH
