@@ -1,0 +1,22 @@
+2025-01 all  win        on dep_min   rows= 539747 ref= 24.67s fast= 0.83s speedup= 29.7x identical=True
+2025-01 all  win_city   on dep_min   rows= 539747 ref= 22.89s fast= 0.78s speedup= 29.3x identical=True
+2025-01 all  win_sched  on sched_min rows= 539747 ref= 19.77s fast= 0.70s speedup= 28.1x identical=True
+2022-06 B6   win        on dep_min   rows=  21323 ref=  0.79s fast= 0.03s speedup= 26.7x identical=True
+2022-06 B6   win_city   on dep_min   rows=  21323 ref=  0.69s fast= 0.03s speedup= 26.6x identical=True
+2022-06 B6   win_sched  on sched_min rows=  21323 ref=  0.59s fast= 0.02s speedup= 24.8x identical=True
+2023-02 all  win        on dep_min   rows= 502749 ref= 19.68s fast= 0.70s speedup= 28.1x identical=True
+2023-02 all  win_city   on dep_min   rows= 502749 ref= 18.59s fast= 0.65s speedup= 28.7x identical=True
+2023-02 all  win_sched  on sched_min rows= 502749 ref= 16.76s fast= 0.61s speedup= 27.5x identical=True
+
+edge case (tied modes 120min apart + midnight window): identical=True
+ dep_min  win  win_tie  win_wrap
+     600  600     True     False
+     600  600     True     False
+     720  720     True     False
+     720  720     True     False
+       5    5     True      True
+       5    5     True      True
+    1415 1415    False      True
+    1415 1415    False      True
+
+ALL IDENTICAL
