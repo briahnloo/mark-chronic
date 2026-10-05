@@ -24,3 +24,7 @@ sources/bts_chronic/btscd_bundle.bin
 
 # Bulk derived table (801 KB, rebuilt by bts_lists.py)
 bts_all_rows.csv
+
+# Per-flight-month scan dumps (185 MB across five years, rebuilt by scan_chronic.py).
+# The small streak summaries beside them are kept as evidence.
+scan_*/flight_month_rule.csv
