@@ -1,0 +1,26 @@
+# Virtualenv and bytecode
+.venv/
+__pycache__/
+*.pyc
+
+# Raw BTS PREZIP archives (1.3 GB, redownloaded by the fetch steps in README)
+bts_raw/
+
+# Derived cache (76 MB, rebuilt by gate_2025.py in ~3 min)
+cache_2025.parquet
+
+# Staged package contents (216 MB, rebuilt by build_package.py)
+package/
+
+# Built archive (28 MB, rebuilt by make_zip.py)
+submission/inputs.zip
+archive/submission_pre_final/inputs.zip
+dryrun/
+
+# Large upstream sources (refetched by the steps in docs/SOURCES.md)
+sources/T_T100D_SEGMENT_US_CARRIER_ONLY_*.zip
+sources/t100_domestic_segment_2025.csv
+sources/bts_chronic/btscd_bundle.bin
+
+# Bulk derived table (801 KB, rebuilt by bts_lists.py)
+bts_all_rows.csv
