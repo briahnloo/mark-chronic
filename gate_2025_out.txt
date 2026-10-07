@@ -1,0 +1,133 @@
+2025 rows: 7,001,619   carriers: 14
+
+====================================================================================================
+GATE TABLE 2025 — citable flights under the admissible method and every determinism variant
+====================================================================================================
+carrier  admis  all diversion  cancels not c  window per se  link on modal  link on any s  link on ident
+AA           0              0              0              0              0              0              0
+AS           0              0              0              0              0              0              0
+B6           0              0              0              0              0              0              0
+DL           0              0              0              0              0              0              0
+F9           0              0              0              0              0              0              0
+G4           0              0              0              0              0              0              0
+HA           0              0              0              0              0              0              0
+MQ           0              0              0              0              0              0              0
+NK           0              0              0              0              0              0              0
+OH           0              0              0              0              0              0              0
+OO           0              0              0              0              0              0              0
+UA           0              0              0              0              1              1              0
+WN           0              0              0              0              0              1              0
+YX           0              0              0              0              0              0              0
+
+every cell zero across admissible + all 6 variants: False
+
+====================================================================================================
+WHAT EACH TRAP PRODUCES (a non-empty list is a wrong YES)
+====================================================================================================
+carrier   flight-number uni      ArrDel15 flag  cancelled rows dr  cancels counted o  4-month runs coun  literal city-pair
+AA                        0                  4                  0                  0                  7                  0
+AS                        0                  2                  0                  0                  0                  0
+B6                        0                  1                  0                  0                  1                  0
+DL                        0                  3                  0                  0                  0                  0
+F9                        0                  4                  0                  0                  2                  0
+G4                        0                  0                  0                  0                  0                  0
+HA                        0                  0                  0                  0                  0                  0
+MQ                        0                  0                  0                  0                  0                  0
+NK                        0                  0                  0                  0                  0                  0
+OH                        0                  0                  0                  0                  1                  0
+OO                        0                  7                  0                  0                  2                  0
+UA                        0                  4                  0                  0                  2                  0
+WN                        0                  0                  0                  0                  0                  0
+YX                        0                  0                  0                  0                  0                  0
+
+trap detail (markets each trap would wrongly flag):
+
+  AA:
+    ArrDel15 flag                4: [('DFW', 'ALB'), ('DFW', 'DEN'), ('DFW', 'DEN'), ('DFW', 'GSP')]
+    4-month runs counted         7: [('DCA', 'MCO'), ('DFW', 'DEN'), ('DFW', 'DEN'), ('DFW', 'DEN'), ('MCO', 'ORD'), ('MCO', 'PHL'), ('ORD', 'DEN')]
+
+  AS:
+    ArrDel15 flag                2: [('DEN', 'SEA'), ('SEA', 'JFK')]
+
+  B6:
+    ArrDel15 flag                1: [('MCO', 'BOS')]
+    4-month runs counted         1: [('MCO', 'EWR')]
+
+  DL:
+    ArrDel15 flag                3: [('ATL', 'DCA'), ('ATL', 'DFW'), ('SLC', 'DEN')]
+
+  F9:
+    ArrDel15 flag                4: [('ATL', 'EWR'), ('ATL', 'LGA'), ('LAX', 'ATL'), ('PHL', 'SJU')]
+    4-month runs counted         2: [('ATL', 'EWR'), ('ATL', 'JFK')]
+
+  OH:
+    4-month runs counted         1: [('DCA', 'CVG')]
+
+  OO:
+    ArrDel15 flag                7: [('CRW', 'ORD'), ('DEN', 'HOB'), ('FSD', 'DEN'), ('GJT', 'DEN'), ('OKC', 'DEN'), ('PIA', 'ORD'), ('SMF', 'SFO')]
+    4-month runs counted         2: [('LIT', 'DEN'), ('LNK', 'DEN')]
+
+  UA:
+    ArrDel15 flag                4: [('BOS', 'ORD'), ('CMH', 'ORD'), ('MIA', 'EWR'), ('MSP', 'DEN')]
+    4-month runs counted         2: [('MCO', 'EWR'), ('MSP', 'DEN')]
+
+====================================================================================================
+WATCH LIST — runs of exactly four chronic months
+====================================================================================================
+
+AA  (7 run(s))
+  DFW-DEN   modal 2235  2025-05..2025-08  flights [662]
+    T-100 2025 passengers on market: 472,594
+    2025-09: 1 ops, 1 late (100.0%); needed 1 -> 0 more late arrivals to extend the run to five months (but under 10 operations, so it could not be chronic)
+  DFW-DEN   modal 1848  2025-05..2025-08  flights [2235]
+    T-100 2025 passengers on market: 472,594
+    2025-09: 30 ops, 11 late (36.7%); needed 16 -> 5 more late arrivals to extend the run to five months
+  DFW-DEN   modal 1645  2025-05..2025-08  flights [1322]
+    T-100 2025 passengers on market: 472,594
+    2025-09: 8 ops, 3 late (37.5%); needed 5 -> 2 more late arrivals to extend the run to five months (but under 10 operations, so it could not be chronic)
+  MCO-PHL   modal 1727  2025-05..2025-08  flights [1311, 2180, 2502]
+    T-100 2025 passengers on market: 384,749
+    2025-09: 30 ops, 4 late (13.3%); needed 16 -> 12 more late arrivals to extend the run to five months
+  MCO-ORD   modal 1912  2025-05..2025-08  flights [1247]
+    T-100 2025 passengers on market: 273,997
+    2025-09: 1 ops, 0 late (0.0%); needed 1 -> 1 more late arrivals to extend the run to five months (but under 10 operations, so it could not be chronic)
+  DCA-MCO   modal 1734  2025-05..2025-08  flights [2139]
+    T-100 2025 passengers on market: 224,621
+    2025-09: 30 ops, 7 late (23.3%); needed 16 -> 9 more late arrivals to extend the run to five months
+  ORD-DEN   modal 1922  2025-06..2025-09  flights [1387]
+    T-100 2025 passengers on market: 173,476
+    2025-10: 25 ops, 2 late (8.0%); needed 13 -> 11 more late arrivals to extend the run to five months
+
+B6  (1 run(s))
+  MCO-EWR   modal 1700  2025-05..2025-08  flights [1728]
+    T-100 2025 passengers on market: 190,751
+    2025-09: 30 ops, 5 late (16.7%); needed 16 -> 11 more late arrivals to extend the run to five months
+
+F9  (2 run(s))
+  ATL-JFK   modal 2215  2025-05..2025-08  flights [4818]
+    T-100 2025 passengers on market: 111,871
+    2025-09: 30 ops, 3 late (10.0%); needed 16 -> 13 more late arrivals to extend the run to five months
+  ATL-EWR   modal 2215  2025-04..2025-07  flights [4602]
+    T-100 2025 passengers on market: 98,799
+    2025-08: 31 ops, 14 late (45.2%); needed 16 -> 2 more late arrivals to extend the run to five months
+
+OH  (1 run(s))
+  DCA-CVG   modal 2023  2025-04..2025-07  flights [5673]
+    T-100 2025 passengers on market: 42,650
+    2025-08: 4 ops, 0 late (0.0%); needed 3 -> 3 more late arrivals to extend the run to five months (but under 10 operations, so it could not be chronic)
+
+OO  (2 run(s))
+  LNK-DEN   modal 1733  2025-05..2025-08  flights [5431]
+    T-100 2025 passengers on market: 69,097
+    2025-09: 30 ops, 10 late (33.3%); needed 16 -> 6 more late arrivals to extend the run to five months
+  LIT-DEN   modal 1640  2025-05..2025-08  flights [5369]
+    T-100 2025 passengers on market: 64,232
+    2025-09: 30 ops, 9 late (30.0%); needed 16 -> 7 more late arrivals to extend the run to five months
+
+UA  (2 run(s))
+  MCO-EWR   modal 1656  2025-05..2025-08  flights [1557]
+    T-100 2025 passengers on market: 562,004
+    2025-09: 30 ops, 10 late (33.3%); needed 16 -> 6 more late arrivals to extend the run to five months
+  MSP-DEN   modal 1659  2025-04..2025-07  flights [2272]
+    T-100 2025 passengers on market: 196,577
+    2025-08: 31 ops, 15 late (48.4%); needed 16 -> 1 more late arrivals to extend the run to five months
