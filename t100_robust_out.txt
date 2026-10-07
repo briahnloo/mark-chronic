@@ -1,0 +1,14 @@
+columns: ['DEPARTURES_PERFORMED', 'PASSENGERS', 'UNIQUE_CARRIER', 'ORIGIN', 'DEST', 'YEAR', 'MONTH']
+
+field                 direction  months           ATL-JFK     ATL-EWR  leader
+PASSENGERS            one dir    full year        111,871      98,799  JFK
+PASSENGERS            one dir    run months        39,879      32,122  JFK
+PASSENGERS            both dirs  full year        222,575     195,803  JFK
+PASSENGERS            both dirs  run months        79,367      63,895  JFK
+DEPARTURES_PERFORMED  one dir    full year            665         567  JFK
+DEPARTURES_PERFORMED  one dir    run months           240         182  JFK
+DEPARTURES_PERFORMED  both dirs  full year          1,331       1,132  JFK
+DEPARTURES_PERFORMED  both dirs  run months           481         366  JFK
+
+distinct leaders across 8 definitions: {'JFK'}
+ORDERING IS STABLE
