@@ -1,0 +1,65 @@
+parsing the twelve published lists:
+  btscd_01_Jan_2025_Chronic_Delay.xlsx         header row  2,   55 rows, 11 cols, month Jan
+  btscd_02_Feb_2025_Chronic_Delay.xlsx         header row  2,  307 rows, 11 cols, month Feb
+  btscd_03_Mar_2025_Chronic_Delay.xlsx         header row  2,   83 rows, 11 cols, month Mar
+  btscd_04_Apr_2025_Chronic_Delay.xlsx         header row  2,  123 rows, 11 cols, month Apr
+  btscd_05_May_2025_Chronic_Delay.xlsx         header row  2,  559 rows, 11 cols, month May
+  btscd_06_June_2025_Chronic_Delay.xlsx        header row  2, 1662 rows, 11 cols, month Jun
+  btscd_07_July_2025_Chronic_Delay.xlsx        header row  2, 2170 rows, 11 cols, month Jul
+  btscd_08_August_2025_Chronic_Delay_0.xlsx    header row  2,  469 rows, 11 cols, month Aug
+  btscd_09_September_2025_Chronic_Delay_0.xlsx header row  2,  172 rows, 11 cols, month Sep
+  btscd_Table_8_Chronic_Delay_December_2025_0.xlsx header row  2,  990 rows, 13 cols, month Dec
+  btscd_Table_8_Chronic_Delay_November_2025.xlsx header row  2,  260 rows, 13 cols, month Nov
+  btscd_Table_8_Chronic_Delay_October_2025.xlsx header row  2,  258 rows, 11 cols, month Oct
+all carriers, all twelve lists: 7,108 rows
+  months present: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+  operations range 10..31; percent range 51.61..100.00
+  late/ops reproduces the printed percent: True
+
+FRONTIER rows on the lists (operating carrier): 337
+FRONTIER rows as marketing carrier: 337  (identical set: True)
+
+per month: {1: 9, 2: 7, 3: 3, 4: 13, 5: 35, 6: 99, 7: 74, 8: 27, 9: 5, 10: 7, 11: 18, 12: 40}
+
+================================================================================================
+WHICH CONVENTION REPRODUCES BTS'S FRONTIER ROWS EXACTLY
+================================================================================================
+
+late = ArrDelay>30, cancels late (rule)
+  rows: BTS 333, mine 325; missing 93, extra 85
+
+late = ArrDel15
+  rows: BTS 333, mine 703; missing 78, extra 448
+
+late = ArrDelay>30, cancels dropped
+  rows: BTS 333, mine 211; missing 172, extra 50
+
+late = ArrDelay>30, cancels dropped [rows dropped]
+  rows: BTS 333, mine 245; missing 141, extra 53
+
+================================================================================================
+P7 FAILS — no convention reproduces BTS's Frontier rows exactly.
+[N] = 333 (taken from BTS's own lists)
+
+================================================================================================
+THE BTS-LIST READING AS A TRAP: consecutive months per flight number
+================================================================================================
+market      flight  months  span
+ATL-EWR       4602       4  04..07
+ATL-JFK       4818       4  05..08
+ATL-IAH       4075       3  05..07
+ATL-LGA       3288       3  05..07
+ATL-MCO       3508       3  06..08
+ATL-MDW       2779       3  05..07
+ATL-PHL       2552       3  05..07
+AUS-ATL       4702       3  06..08
+BWI-ATL       2509       3  05..07
+BWI-SJU       2266       3  06..08
+CLT-PHL       1384       3  05..07
+DEN-PHL       3266       3  06..08
+
+Frontier flight numbers on 5+ consecutive BTS lists: 0
+
+longest run: 4
+
+wrote bts_f9_rows.csv (337 rows) and bts_all_rows.csv (7108 rows)
