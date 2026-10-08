@@ -1,0 +1,237 @@
+ Order 2024-12-21 
+ 
+ 
+ 
+    
+ 
+UNITED STATES OF AMERICA 
+DEPARTMENT OF TRANSPORTATION 
+OFFICE OF THE SECRETARY 
+WASHINGTON, D.C. 
+ 
+Issued by the Department of Transportation 
+on the 3rd day of January, 2025 
+ 
+     
+    JetBlue Airways Corp.      Docket OST-2024-0001 
+    Violations of 49 U.S.C. § 41712 and       
+    14 CFR Part 399      Served January 3, 2025 
+    
+ 
+CONSENT ORDER  
+ 
+The U.S. Department of Transportation’s Office of Aviation Consumer Protection (OACP) has 
+determined that JetBlue Airways Corp. (JetBlue) held out four chronically delayed flights from 
+June 2022 through November 2023 at least 145 times in violation of 49 U.S.C. § 41712 (Section 
+41712) and 14 CFR 399.81.  This order directs JetBlue to cease and desist from future similar 
+violations of 49 U.S.C. § 41712 and 14 CFR 399.81, and assesses the carrier $2,000,000 in civil 
+penalties.     
+ 
+Applicable Law 
+ 
+A “chronically delayed flight” means any domestic flight that is operated at least 10 times a 
+month and arrives more than 30 minutes late (including cancelled flights) more than 50 percent 
+of the time during that month.1  For purposes of determining chronically delayed flights, the 
+Department considers all of a carrier’s flights that are operated in a given city-pair market whose 
+scheduled departure times are within 30 minutes of the most frequently occurring scheduled 
+departure time to be one single flight.2 The holding out of a chronically delayed flight for more 
+than four consecutive one-month periods represents one form of unrealistic scheduling and is an 
+unfair and deceptive practice and an unfair method of competition within the meaning of 
+49 U.S.C. § 41712.3   
+ 
+ 
+ 
+1 14 CFR 399.81(c)(2). 
+ 
+2 14 CFR 399.81(c)(3).   
+ 
+3 14 CFR 399.81(c)(4). 
+2 
+ 
+ 
+ 
+ 
+Section 41712 authorizes the Department to investigate and decide whether a carrier or ticket 
+agent is engaging in an unfair or deceptive practice, and if so, to prohibit such a practice.  For the 
+period in question, JetBlue was subject to a maximum civil penalty of up to $40,272 for each 
+violation of section 41712 and 14 CFR 399.81.4  A separate violation takes place for each day 
+the violation continues or, if applicable, for each flight involving the violation.5   
+ 
+Facts and Conclusions 
+ 
+As part of its monitoring of airlines’ operations, OACP regularly obtains chronic delay data from 
+the Department’s Bureau of Transportation Statistics (BTS).  The BTS data that OACP uses to 
+monitor airlines’ operations are submitted to BTS by the airlines. Nevertheless, OACP sent 
+individual warnings of chronic delays to carriers until 2018. In February 2018, OACP notified 
+airlines, including JetBlue, that it would stop sending individualized warnings of chronic delays 
+to carriers. By this point, the prohibition against chronically delayed flights had been in existence 
+for many years. Carriers have both the capability and legal responsibility to avoid chronic delays, 
+even in the absence of warnings by OACP that a chronic delay violation is imminent.   
+ 
+OACP uncovered that, from June 2022 through October 2022, JetBlue operated a chronically 
+delayed flight between New York City and Raleigh-Durham, NC (Flight 2585, JFK-RDU).  
+Although informed about this chronically delayed flight in January 2023, from June 2023 
+through October 2023, JetBlue operated another two chronically delayed flights: one between 
+Fort Lauderdale, FL and New York City (Flight 1802, FLL-JFK) and another between Orlando, 
+FL and New York City (Flight 384, MCO-JFK).  Also, from June 2023 through November 2023, 
+JetBlue operated yet another chronically delayed flight between Fort Lauderdale, FL, and 
+Windsor Locks, CT (Flight 460, FLL-BDL). 
+ 
+JetBlue held out these chronically delayed flights to the public at least 145 times6 in violation of 
+Section 41712 and 14 CFR 399.81.  Regardless of the cause of the delay (carrier, weather, 
+national airspace, security) for any specific flight, JetBlue had adequate time to act to avoid the 
+chronic delays.7 Holding out these chronically delayed flights disregarded consumers’ need to 
+ 
+4 49 U.S.C. § 46301(a)(1)(A) and (B).  For violations occurring from March 21, 2022, to January 5, 2023, the 
+maximum civil penalty is $37,377. Revisions to Civil Penalty Amounts, 87 Fed. Reg. 15839 (March 21, 2022). For 
+violations occurring on or after January 6, 2023, the maximum civil penalty is $40,272.  Revisions to Civil Penalty 
+Amounts, 88 Fed. Reg. 1114 (Jan. 6, 2023).   
+ 
+5 49 U.S.C. § 46301(a)(2).   
+ 
+6 For flight 2585 JFK-RDU, JetBlue operated (and therefore held out) 31 flights in month 5.  For flight 460 FLL-
+BDL, JetBlue operated 57 flights in months 5 and 6.  For flight 1802 FLL-JFK, JetBlue operated 30 flights in month 
+5.  For flight 384 MCO-JFK, JetBlue operated 27 flights in month 5. 
+ 
+7 The preamble to the Department’s rule covering chronically delayed flights states as follows: “Carriers know at the 
+beginning of month two whether the flights they operated during month one were chronically late. We believe that 
+carriers can make adjustments to their schedules within 60 days; therefore, we expect that during months 
+two, three and four carriers would adjust their schedule for each of their chronically late flights to make the 
+schedule for that flight more realistic by month five.  While flight delays for weather, mechanical, or other 
+ 
+3 
+ 
+ 
+ 
+have reliable information about the real arrival time of a flight and harmed thousands of 
+passengers. The civil penalty in this matter is intended, in part, to reflect that harm.                  
+ 
+Response 
+ 
+JetBlue states that it takes extremely seriously its obligations to comply with applicable federal 
+law, regulations, and policies, and has at all times strived to avoid scheduling or operating flights 
+that are delayed, much less “chronically delayed.”  Without any admission of liability, JetBlue is 
+agreeing to settle DOT’s claims pursuant to this Consent Order to avoid the expense and 
+uncertainty of litigation.  However, JetBlue respectfully maintains that the penalties sought by 
+DOT are subject to significant mitigation to reflect the following factors, without limitation: 
+ 
+1. JetBlue has spent tens of millions of dollars in investment in its systems and in process 
+improvements in order to address issues with air traffic control (ATC) especially in the 
+U.S. Northeast corridor to as much as reasonably possible prevent any chronically 
+delayed flights in the future.  These past and ongoing efforts are reflected in a large and 
+sustained improvement in JetBlue’s operations over the last two years since the flights at 
+issue occurred, as demonstrated this past summer with dramatic improvement in 
+operational performance. 
+ 
+2. JetBlue has recently learned that DOT has eliminated its prior practice of providing 
+written warnings to the air carriers that multiple months of chronically delayed flights 
+have occurred, and in the future, JetBlue will no longer rely on the receipt of such timely 
+warnings by DOT. 
+ 
+3. JetBlue will continue to lobby and work with the FAA and Congress to improve the air 
+traffic control system, staffing and operational reliability especially in the Northeastern 
+U.S. corridor – which is the predominant geographical area served by JetBlue – in order 
+to seek a reduction in the ATC conditions which JetBlue maintains were the root cause of 
+the chronic delays in the past. 
+ 
+ 
+Decision 
+ 
+OACP views seriously JetBlue’s violations of Section 41712 and 14 CFR 399.81. Accordingly, 
+after carefully considering all the facts in this case, OACP believes that enforcement action is 
+warranted. In order to avoid litigation, JetBlue consents to the issuance of this order to cease and 
+desist from future violations of 49 U.S.C. § 41712 and 14 CFR 399.81 and to the assessment of 
+$2,000,000 in compromise of potential civil penalties otherwise due and payable pursuant to 
+49 U.S.C. § 46301. DOT states that the compromise assessment is appropriate considering the 
+ 
+operational reasons occur frequently in the airline industry, the Department considers the continued publishing of 
+schedules that list chronically late flights to be one form of unrealistic scheduling and an unfair or deceptive practice 
+and unfair method of competition within the meaning of 49 U.S.C. 41712.” See 74 FR 68983, 68993-94 (December 
+30, 2009) (emphasis added).  Carriers know or should know at the beginning of month two whether the flights they 
+operated during month one were chronically late. Carriers can adjust schedules during months two, three, and four to 
+make them more realistic by month five and not hold out chronically delayed flights. Id. 
+4 
+ 
+ 
+ 
+nature and extent of the violations described herein, serves the public interest, and establishes a 
+strong deterrent to future similar unlawful practices by JetBlue and other carriers. 
+ 
+This order is issued under the authority contained in 49 CFR Part 1. 
+ 
+ACCORDINGLY, 
+ 
+1. Based on the above discussion, we approve this settlement and the provisions of this order 
+as being in the public interest; 
+2. We find that JetBlue Airways Corp. held out chronically delayed flight s, as defined by 
+14 CFR 399.81(c)(2):  
+a. One flight for five consecutive months from June 2022 through and October 2022;   
+b. Two flights for five consecutive months from June 2023 through October 2023;  
+and 
+c. One flight for six consecutive months from June 2023 through November 2023;  
+3. We find that by engaging in the conduct described in paragraph 2, above, JetBlue 
+Airways Corp. violated 14 CFR 399.81(c)(4) and engaged in an unfair and deceptive 
+practice and an unfair method of competition in violation of 49 U.S.C. § 41712; 
+4. We order JetBlue Airways Corp. and its successors and assigns to cease and desist from 
+further violations of 49 U.S.C. § 41712 and 14 CFR 399.81; 
+5. We assess JetBlue Airways Corp. $2,000,000 in civil penalties for the violations 
+described in paragraphs 2 and 3, above:  
+(a) 500,000 of the assessed penalty is due and payable within 60 days of the date of this 
+order;  
+ 
+(b) $500,000 of the assessed penalty is due and payable within one year after the 
+payment in paragraph 5(a); and  
+ 
+(c) $1,000,000 of the assessed penalty will be credited to JetBlue for costs that JetBlue 
+has incurred or will incur for: (1) goodwill compensation already paid to affected 
+passengers during the timeframe covered by this investigation;8 and (2) goodwill 
+compensation payable within one year of the date of this order to passengers who are 
+ 
+8 Credit for goodwill compensation to passengers is calculated at 100% for cash refunds and 80% for vouchers or 
+travel credits.  
+ 
+5 
+ 
+ 
+ 
+affected by future controllable cancellations or delays of three hours or more, 
+provided that any vouchers payable to passengers are valued at a minimum of $75;9   
+ 
+6. We order JetBlue Airways Corp. to pay through Pay.gov to the account of the U.S. 
+Treasury. Payment shall be made in accordance with the instructions contained in the 
+Attachment to this order. Failure to pay the penalty as ordered shall subject JetBlue 
+Airways Corp. to the assessment of interest, penalty, and collection charges under the 
+Debt Collection Act and to further enforcement action for failing to comply with this 
+order;    
+7. The offsets described in ordering paragraph 5(c) may be amended with the Department’s 
+approval; and  
+8. Should a dispute arise under, or with respect to, this Consent Order, the parties will raise 
+such concerns to one another and seek to resolve the dispute. If the parties are unable to 
+reach a satisfactory resolution of the issue or issues within 60 days after concerns have 
+been raised, then either party may seek judicial review of the dispute. 
+This order will become a final order of the Department 10 days after its service date unless a 
+timely petition for review is filed or the Department takes review on its own motion. 
+ 
+ 
+ 
+ 
+BY: 
+BLANE A. WORKIE 
+Assistant General Counsel  
+   for the Office of Aviation Consumer Protection 
+ 
+An electronic version of this document is available at  
+www.regulations.gov   
+ 
+ 
+ 
+ 
+ 
+9 By January 31, 2026, at the latest, in addition to the November 25, 2024, documentation provided by JetBlue, the 
+carrier must provide the Department with updated supporting documentation containing a description of the 
+expenditures associated with the offsets in subparagraph 5(c) if any changes and accompanying accounting verifying 
+the offsets. The documentation must be accompanied by a sworn statement by a senior carrier official attesting that 
+the description, documentation, and accounting are true and complete to the best of that official’s knowledge and 
+that official has made a reasonable inquiry to establish the accuracy of the statement. To the extent the carrier fails to 
+provide adequate documentation and accounting verifying the appropriate expenditures by January 31, 2026, that 
+amount shall become due to the U.S. Treasury within 30 days. 
