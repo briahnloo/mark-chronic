@@ -1,0 +1,7 @@
+# Python 3.13. Versions as used for the verified run in READY.md.
+pandas==3.0.6
+pyarrow==25.0.1
+matplotlib==3.11.2
+reportlab==5.0.1
+openpyxl==3.1.5
+pdfplumber==0.11.10
