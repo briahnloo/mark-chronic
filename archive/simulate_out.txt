@@ -1,0 +1,66 @@
+sanity: the admissible method scores 100/100
+
+========================================================================================================
+SIMULATED MISTAKES — score on the mock rubric
+========================================================================================================
+mistake                           score    its answer  criteria lost
+flight-number unit                  76%     0 citable  C6 C8 C9 C10 C11 C17 C18 C20
+per-service window                  76%     0 citable  C6 C8 C9 C10 C11 C17 C18 C20
+">=50%"                             76%     0 citable  A2 A3 A4 C17 C22
+dropping cancellations              69%     0 citable  A5 C5 C6 C8 C9 C10 C11 C17 C19
+4-month runs counted                37%     2 citable  A1 A2 A3 A4 C3 C4 C5 C6 C7 C13 C14 C16 C20 C22
+cancellations counted on time       34%     0 citable  A2 A3 A4 A5 C3 C4 C5 C6 C7 C8 C9 C10 C11 C14 C17 C19 C22
+city-pair market                    33%     0 citable  A2 A3 A4 A5 C3 C4 C5 C6 C7 C8 C9 C10 C11 C14 C17 C18 C20 C22
+ArrDel15                            31%     4 citable  A1 A2 A3 A4 C3 C4 C5 C6 C7 C13 C14 C16 C17 C19 C22
+averaged flight-number rates        29%     1 citable  A1 A2 A3 A4 A5 C4 C6 C7 C8 C9 C10 C11 C13 C16 C17 C19 C22
+
+mistakes at or above 45%: [('flight-number unit', 76), ('per-service window', 76), ('dropping cancellations', 69), ('">=50%"', 76)]
+
+========================================================================================================
+WHAT EACH WOULD SHIP
+========================================================================================================
+
+  flight-number unit  (76%)
+    citable: none
+    watch list: [('ATL-JFK', 4818, 111871, 13), ('ATL-EWR', 4602, 98799, 2)]
+    control: 4/4 flights, 1/4 operation counts
+
+  per-service window  (76%)
+    citable: none
+    watch list: [('ATL-JFK', 4818, 111871, 13), ('ATL-EWR', 4602, 98799, 2)]
+    control: 4/4 flights, 2/4 operation counts
+
+  ">=50%"  (76%)
+    citable: none
+    watch list: [('PHL-MCO', 4169, 263969, 4), ('SJU-PHL', 1015, 145510, 7), ('ATL-LGA', 3288, 121240, 4), ('ATL-JFK', 4818, 111871, 13), ('ATL-EWR', 4602, 98799, 2), ('LAX-ATL', 3216, 89933, 4), ('ATL-MDW', 2779, 78809, 9)]
+    control: 4/4 flights, 4/4 operation counts
+
+  dropping cancellations  (69%)
+    citable: none
+    watch list: [('ATL-JFK', 4818, 111871, 13), ('ATL-EWR', 4602, 98799, 2)]
+    control: 3/4 flights, 3/4 operation counts
+
+  4-month runs counted  (37%)
+    citable: [('ATL', 'EWR', 1124), ('ATL', 'JFK', 1335)]
+    watch list: [('ATL-JFK', 4818, 111871, 13), ('ATL-EWR', 4602, 98799, 2)]
+    control: 4/4 flights, 4/4 operation counts
+
+  cancellations counted on time  (34%)
+    citable: none
+    watch list: []
+    control: 2/4 flights, 2/4 operation counts
+
+  city-pair market  (33%)
+    citable: none
+    watch list: []
+    control: 1/4 flights, 1/4 operation counts
+
+  ArrDel15  (31%)
+    citable: [('ATL', 'EWR', 1124), ('ATL', 'LGA', 1196), ('LAX', 'ATL', 1355), ('PHL', 'SJU', 1208)]
+    watch list: [('MCO-ATL', 4025, 165222, 4), ('ATL-PHL', 2298, 148559, 1), ('PHL-ATL', 1101, 148238, 1), ('SJU-PHL', 1015, 145510, 3), ('ATL-JFK', 4818, 111871, 10), ('ATL-DEN', 1449, 111169, 2), ('IAH-ATL', 2400, 101856, 5), ('ATL-MDW', 2779, 78809, 7), ('DFW-BWI', 1476, 42166, 7), ('PNS-DEN', 2443, 35295, 4)]
+    control: 4/4 flights, 4/4 operation counts
+
+  averaged flight-number rates  (29%)
+    citable: [('ATL', 'EWR', 1127)]
+    watch list: [('ATL-MCO', 3508, 168321, 1), ('ATL-JFK', 4818, 111871, 13)]
+    control: 2/4 flights, 2/4 operation counts
