@@ -1,0 +1,67 @@
+F9 2025 rows: 198,065
+B6 control rows: 413,909
+
+====================================================================================================
+ADMISSIBLE METHOD — the pins as the golden files will state them
+====================================================================================================
+P1 answer: 0 citable flight(s) []
+P2 watch list: [('ATL', 'EWR', '2025-04..2025-07'), ('ATL', 'JFK', '2025-05..2025-08')]
+P4 extra late arrivals needed: [('ATL', 'EWR', 2), ('ATL', 'JFK', 13)]
+P5 control: 4/4 flights, 4/4 operation counts, extra=[('FLL', 'BOS')]
+
+====================================================================================================
+PIN SENSITIVITY — which pins each mistake moves
+====================================================================================================
+mistake                           answer   P1   P2   P4   P5  pins  control
+flight-number unit                     0  .    .    .    Y       1  4/4 1/4
+per-service window                     0  .    .    .    Y       1  4/4 2/4
+city-pair market                       0  .    Y    Y    Y       3  1/4 1/4
+averaged flight-number rates           1  Y    Y    Y    Y       4  2/4 2/4
+dropping cancellations                 0  .    .    .    Y       1  3/4 3/4
+cancellations counted on time          0  .    Y    Y    Y       3  2/4 2/4
+ArrDel15                               4  Y    Y    Y    .       3  4/4 4/4
+4-month runs                           2  Y    .    .    .       1  4/4 4/4
+">50%" read as "at least 50%"          0  .    Y    Y    .       2  4/4 4/4
+
+P1 = the answer, P2 = watch-list markets/months, P4 = extra late arrivals,
+P5 = the JetBlue control's flights and operation counts.
+
+====================================================================================================
+WHAT EACH MISTAKE WOULD REPORT (its list and top entry)
+====================================================================================================
+
+  flight-number unit
+    top entry: ('ATL', 'EWR')
+    list: [('ATL', 'EWR', '2025-04..2025-07'), ('ATL', 'JFK', '2025-05..2025-08')]
+
+  per-service window
+    top entry: ('ATL', 'EWR')
+    list: [('ATL', 'EWR', '2025-04..2025-07'), ('ATL', 'JFK', '2025-05..2025-08')]
+
+  city-pair market
+    top entry: None
+    list: []
+
+  averaged flight-number rates
+    top entry: ('ATL', 'EWR', 1127)
+    list: [('ATL', 'EWR', 1127)]
+
+  dropping cancellations
+    top entry: ('ATL', 'EWR')
+    list: [('ATL', 'EWR', '2025-04..2025-07'), ('ATL', 'JFK', '2025-05..2025-08')]
+
+  cancellations counted on time
+    top entry: None
+    list: []
+
+  ArrDel15
+    top entry: ('ATL', 'EWR', 1124)
+    list: [('ATL', 'EWR', 1124), ('ATL', 'LGA', 1196), ('LAX', 'ATL', 1355), ('PHL', 'SJU', 1208)]
+
+  4-month runs
+    top entry: ('ATL', 'EWR', 1124)
+    list: [('ATL', 'EWR', 1124), ('ATL', 'JFK', 1335)]
+
+  ">50%" read as "at least 50%"
+    top entry: ('ATL', 'EWR')
+    list: [('ATL', 'EWR', '2025-04..2025-07'), ('ATL', 'JFK', '2025-05..2025-08'), ('ATL', 'LGA', '2025-04..2025-07'), ('ATL', 'MDW', '2025-05..2025-08'), ('LAX', 'ATL', '2025-04..2025-07'), ('PHL', 'MCO', '2025-05..2025-08'), ('SJU', 'PHL', '2025-05..2025-08')]
